@@ -7,8 +7,8 @@ const Counter = () => {
     setCounter(counter + num);
   };
   return (
-    <div className='mt-5'>
-      <h3>Counter: useState</h3>
+    <div>
+      <h3>Counter</h3>
       <span>Value: {counter}</span>
       <br />
       <button

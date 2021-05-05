@@ -21,7 +21,7 @@ const User = () => {
   };
   return (
     <div className='mt-5'>
-      <h3>User: useState</h3>
+      <h3>User</h3>
       <button className='btn btn-outline-primary' onClick={login}>
         Login
       </button>
