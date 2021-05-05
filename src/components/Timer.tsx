@@ -8,8 +8,6 @@ type TimerArgs = {
 const Timer = ({ milliseconds }: TimerArgs) => {
   const [seconds, setSeconds] = useState(0);
   const ref = useRef<NodeJS.Timeout>();
-
-  console.log(milliseconds);
   useEffect(() => {
     ref.current && clearInterval(ref.current);
     ref.current = setInterval(
